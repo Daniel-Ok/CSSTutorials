@@ -59,10 +59,13 @@ body {
     color: rgb(176, 202, 176);
 }
 
-.main-nav__item a:hover {
+.main-nav__item a:hover, 
+.main-nav__item a:active {
     color: white;
 }
 
-.main-nav__item a:active {
-    color: white;
+
+p::first-letter {
+    color: red;
+    font-size: 20px;
 }
