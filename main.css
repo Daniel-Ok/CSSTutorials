@@ -57,11 +57,15 @@ body {
 .main-nav__item a {
     text-decoration: none;
     color: rgb(176, 202, 176);
+    font-weight: bold;
+    border-bottom: white;
 }
 
 .main-nav__item a:hover, 
 .main-nav__item a:active {
     color: white;
+    border-bottom: 50px solid white;
+    
 }
 
 
